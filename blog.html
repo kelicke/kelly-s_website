@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head> 
+    <title>Highlights</title>
+
+    <style>
+  .menu-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #e68a8a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .menu-button:hover {
+    background-color: #db8787;
+  }
+    body {
+
+  background-color: #ffffff;
+  background-image: 
+    linear-gradient(0deg, transparent 24%, #e0e0e0 25%, #e0e0e0 26%, transparent 27%, transparent 74%, #e0e0e0 75%, #e0e0e0 76%, transparent 77%, transparent),
+    linear-gradient(90deg, transparent 24%, #e0e0e0 25%, #e0e0e0 26%, transparent 27%, transparent 74%, #e0e0e0 75%, #e0e0e0 76%, transparent 77%, transparent);
+  background-size: 40px 40px;
+     font-family: courier, monospace;
+      font-weight: 100;
+    text-align: center;  
+
+  }
+  /* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+       font-family: courier, monospace;
+      font-weight: 100;
+    text-align: center;  
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: middle;
+  border: none;
+  outline: none;
+  cursor:  pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+         font-family: courier, monospace;
+      font-weight: 100;
+    text-align: center; 
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #e68a8a;
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+</style>
+<body>
+    <a href="index.html" class="menu-button">
+    <i class="fa-solid fa-house-chimney"></i> menu
+    </a>
+<h2>Highlights ꩜ .ᐟ</h2>
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Trips')">Trips 🗺️✈જ⁀➴</button>
+  <button class="tablinks" onclick="openTab(event, 'Events')">Events 🗓️🎉✨</button>
+  <button class="tablinks" onclick="openTab(event, 'Serendipity')">Serendipity 💫</button>
+</div>
+
+<div id="Trips" class="tabcontent">
+  <h3>Trips</h3>
+  <p>Trips i have been on:</p>
+  <h2>post-exam trip to Kos</h2>
+<img src="kosboten.jpg" style="width:400px;height:400px;" alt="kos" >
+<img src="koszwembad.jpg" style="width: 400px;height:400px;" alt="kos" >
+<img src="iheartkos.jpeg" style="width: 400px;height:400px;" alt="kos" > 
+<br><br>  
+<h2>Trip to Japan '26</h2>
+  <img src="IMG_7977.jpeg" style="width: 400px;height:400px;" alt="shibuya" >
+  <img src="IMG_8093.jpg" style="width: 400px;height:400px;" alt="don quixote" >
+  <img src="5f09dd4c-b2d7-425d-9f54-eda66b7ab66a.JPG" style="width: 400px;height:400px;" alt="teamlabs tokyo" >
+<h2></h2>
+
+</div>
+
+
+
+<div id="Events" class="tabcontent">
+  <h3>Life events</h3>
+  <p>Events i have experienced:</p>
+  <h2>Highschool graduation</h2>
+    <img src="tasvlaguit.jpeg" style="width: 400px;height:400px;" alt="graduation" >
+    <img src="graduadocar.jpeg" style="width: 400px;height:400px;" alt="graduation" >
+    <img src="tekenen.jpeg" style="width: 400px;height:400px;" alt="graduation" >
+  <h2>Stunt week</h2>
+    <img src="witteshirts.jpeg" style="width: 400px;height:400px;" alt="stunt week" >
+    <img src="floyn.jpeg" style="width: 400px;height:400px;" alt="stunt week" >
+    <img src="wildewesten.jpeg" style="width: 400px;height:400px;" alt="stunt week" >
+</div>
+<div id="Serendipity" class="tabcontent">
+  <h3>Serendipity</h3>
+  <img src="fennakelly.jpeg" style="width: 400px;height:400px;" alt="serendipity" >
+  <img src="lastdinner.jpeg" style="width: 400px;height:400px;" alt="serendipity" >
+  <img src="e.jpeg" style="width: 400px;height:400px;" alt="serendipity" >
+  <img src="elfje.jpeg" style="width: 400px;height:400px;" alt="serendipity" >
+  <img src="omwtoledo.jpeg" style="width: 400px;height:400px;" alt="serendipity" >
+  <img src="wk.jpeg" style="width: 400px;height:400px;" alt="serendipity" >
+  <img src="sgat.jpeg" style="width: 400px;height:400px;" alt="serendipity" >
+  <img src="beeldendhart.JPG" style="width: 400px;height:400px;" alt="serendipity" >
+  <img src="alyshelm.jpeg" style="width: 400px;height:400px;" alt="serendipity" >
+</div>
+
+
+
+
+
+
+
+
+
+<script>//got this from w3schools.com i didnt feel like learning javascript.
+function openTab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+    
+</body>
+</html>
