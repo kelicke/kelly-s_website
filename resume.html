@@ -49,6 +49,27 @@
     background-color: #4ee0a8;
   }
 </style>
+    <style>
+      @media (max-width: 600px) {
+  body {
+    padding: 12px;
+    padding-top: 70px;   /* keeps content below the fixed menu button */
+  }
+
+  img {
+    box-sizing: border-box;
+    width: 100% !important;   /* !important overrides the inline pixel sizes */
+    height: auto !important;
+  }
+  .logo {
+  width: 150px !important;
+  height: 50px !important;
+}
+  h1 {
+    font-size: 32px;
+  }
+}
+    </style>
 <a href="index.html" class="menu-button">
 <i class="fa-solid fa-house-chimney"></i> menu  
 </a>
@@ -62,7 +83,7 @@
         <ul>
             <li><p><u>University</u>: Vrije Universiteit Amsterdam <u>2026-present</u></p></li>
             <li><p><u>High School</u>: Amadeus Lyceum, vleuterweide <u>2020-2026</u></p></li>
-            <img src="amadeus.jpg" style="width: 150px;height:50px;" alt="Amadeus Lyceum">
+                <img src="amadeus.jpg" class="logo" alt="Amadeus Lyceum">
         </ul>
     </div>
     <div>

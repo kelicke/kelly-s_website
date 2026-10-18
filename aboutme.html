@@ -153,6 +153,70 @@
 
 
 </style>
+    <style>
+      @media (max-width: 600px) {
+  body {
+    padding: 12px;
+    padding-top: 70px;   /* keeps content below the fixed menu button */
+  }
+
+  img {
+    box-sizing: border-box;
+    width: 100% !important;   /* !important overrides the inline pixel sizes */
+    height: auto !important;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 600px) {
+  .kelz,
+  .clairophoto,
+  .uitsh,
+  .clairobox,
+  .uitbox,
+  .caption {
+    position: static !important;
+  }
+
+  .clairobox,
+  .uitbox {
+    width: 90% !important;
+    margin: 20px auto;
+  }
+
+  .clairobox {
+    padding-bottom: 20px;   /* smaller white strip on phones */
+  }
+
+  .uitcaption,
+  .caption {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .about-button,
+  .resume-button {
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+
+  .Highlights-button {
+    padding: 10px 40px;
+    font-size: 18px;
+  }
+
+  .about-button h3,
+  .resume-button h3 {
+    font-size: 20px;
+  }
+}
+    </style>
 <a href="index.html" class="menu-button">
   <i class="fa-solid fa-house-chimney"></i> menu 
 </a>
@@ -176,7 +240,7 @@
             <audio controls src="hello.mp3">  
             </audio>
             <li>Lorde</li>
-            <audio controls src="400 lux.mp3">
+            <audio controls src="400 Lux.mp3">
             </audio>
         </ul>
     </div>
